@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(28, 27, 27);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    padding: 0 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover {
+    color: darkorange;
+}
+
+button {
+    margin: 1rem 0 0 0;
+}
+
+button:active {
+    background: darkorange;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5%;
+}
